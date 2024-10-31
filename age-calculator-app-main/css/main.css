@@ -68,7 +68,7 @@ label{
 }
 
 .submissions[type="text"]{
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding-left: 1rem;
 }
 
@@ -76,8 +76,11 @@ button{
     background-color: var(--purple);
     outline: none;
     border: none;
+    border-radius: 50px;
     position: absolute;
     top: 30%;
+    right: 10%;
+    padding: 1.1rem;
     cursor: pointer;
     transform: translateY(-50%);
 }

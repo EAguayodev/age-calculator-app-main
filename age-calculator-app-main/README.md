@@ -32,20 +32,11 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 - **Bonus**: See the age numbers animate to their final number when the form is submitted
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ### Links
 
 - Solution URL: [](https://your-solution-url.com)
-- Live Site URL: [](https://your-live-site-url.com)
+- Live Site URL: (https://age-calculator-app-main-chi.vercel.app/)
 
 ## My process
 
@@ -53,12 +44,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Semantic HTML5 markup
 - CSS custom properties
+- Vanilla JavaScript
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Desktop-first workflow
+
 
 
 ### What I learned
@@ -68,10 +57,18 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-
+<div class="input-group">
+  <label for="day">Day</label>
+  <input class="submissions" type="text" id="day" name="day" placeholder="DD">
+  <small class="error-text"></small>
+</div>
 ```
 ```css
-
+.submissions::placeholder{
+    color: var(--smokey-grey);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
 ```
 ```js
 
@@ -88,11 +85,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Eric Aguayo](https://www.ericaguayo.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

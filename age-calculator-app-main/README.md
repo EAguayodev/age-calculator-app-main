@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [](https://your-solution-url.com)
-- Live Site URL: (https://age-calculator-app-main-chi.vercel.app/)
+- Live Site URL: https://age-calculator-app-main-chi.vercel.app/
 
 ## My process
 

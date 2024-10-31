@@ -14,3 +14,103 @@
     --off-black: hsl(0, 0%, 8%);
 }
 
+body {
+    background-color: var(--light-grey);
+    font-family: var(--font-family);
+    
+}
+
+main{
+    margin: 8rem auto;
+}
+
+.age-calculator {
+    background-color: var(--white);
+    padding: 40px;
+    border-radius: 20px 20px 100px 20px;
+    width: 52.5rem;
+    margin: 0 auto;
+    height: 40.688rem;
+    position: relative;
+    top: 0%;
+}
+
+.submissions{
+    border: 1px solid var(--light-grey);
+    border-radius: 5px;
+    height: 4.375rem;
+    width: 10.5;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-group {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    gap: 10px;
+}
+
+label{
+    color: var(--smokey-grey);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.submissions:hover{
+    border: 1px solid var(--purple);
+}
+
+.submissions::placeholder{
+    color: var(--smokey-grey);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.submissions[type="text"]{
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+button{
+    background-color: var(--purple);
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+    transform: translateY(-50%);
+}
+
+.results h1{
+    font-size: 3.5rem;
+}
+
+.results span{
+    color: var(--purple);
+    font-size: 6.5rem;
+}
+
+/* Media Queries mobile screens */
+@media (max-width: 768px) {
+    .age-calculator{
+        width: 21.438rem;
+        flex-direction: column;
+        height: 30.5rem;
+    }
+
+    .input-group{
+        padding: 0;
+        width: 5.479rem;
+    }
+
+    .results h1{
+        font-size: 3.5rem;
+    }
+
+    .results span{
+        font-size: 3.5rem;
+    }
+}
+
+

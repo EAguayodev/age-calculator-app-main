@@ -39,7 +39,7 @@ main{
     border: 1px solid var(--light-grey);
     border-radius: 5px;
     height: 4.375rem;
-    width: 10.5;
+    width: 10rem;
     outline: none;
     cursor: pointer;
 }
@@ -72,17 +72,28 @@ label{
     padding-left: 1rem;
 }
 
+hr{
+    border: 1px solid var(--light-grey);
+    width: 39.5rem;
+    position: relative;
+    top: 2rem;
+}
+
 button{
     background-color: var(--purple);
     outline: none;
     border: none;
     border-radius: 50px;
     position: absolute;
-    top: 30%;
-    right: 10%;
+    top: 28%;
+    right: 16%;
     padding: 1.1rem;
     cursor: pointer;
     transform: translateY(-50%);
+}
+
+button:hover{
+    background-color: var(--off-black);
 }
 
 .results h1{

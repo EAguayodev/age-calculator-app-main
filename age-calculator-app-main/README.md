@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://your-solution-url.com)
+- Solution URL: https://your-solution-url.com
 - Live Site URL: https://age-calculator-app-main-chi.vercel.app/
 
 ## My process
@@ -80,14 +80,12 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- https://www.w3schools.com/cssref/sel_placeholder.php - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- https://www.geeksforgeeks.org/how-to-align-placeholder-text-in-html/ - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Website - [Eric Aguayo](https://www.ericaguayo.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-
+- Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev)
 
 ## Acknowledgments
-

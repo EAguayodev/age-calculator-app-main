@@ -14,9 +14,6 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
-## Overview
-
 ### The challenge
 
 Users should be able to:
@@ -52,9 +49,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
 
 ```html
 <div class="input-group">
@@ -71,7 +65,22 @@ To see how you can add code snippets, see below:
 }
 ```
 ```js
-
+ if (day && month && year && !hasErrors) {
+      const date = new Date(year, month - 1, day); // JavaScript months are 0-based
+      if (
+        date.getDate() != day ||
+        date.getMonth() + 1 != month ||
+        date.getFullYear() != year
+      ) {
+        dayError.textContent = "Must be a valid date.";
+        monthError.textContent = "Must be a valid date.";
+        yearError.textContent = "Must be a valid date.";
+        applyErrorStyles(dayInput, dayError);
+        applyErrorStyles(monthInput, monthError);
+        applyErrorStyles(yearInput, yearError);
+        hasErrors = true;
+      }
+    }
 ```
 
 ### Continued development
@@ -80,12 +89,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- https://www.w3schools.com/cssref/sel_placeholder.php - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- https://www.geeksforgeeks.org/how-to-align-placeholder-text-in-html/ - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- https://www.w3schools.com/cssref/sel_placeholder.php - I went to w3schools to learn about the placeholder selector, and to see how to style it and resize accoridng to the figma design.
+- https://www.geeksforgeeks.org/how-to-align-placeholder-text-in-html/ - This is an amazing article which helped me finally understand the approach to align the placeholder text in the input fields, and target them fore error styling using javascript.
 
 ## Author
 
 - Website - [Eric Aguayo](https://www.ericaguayo.com)
 - Frontend Mentor - [@EAguayodev](https://www.frontendmentor.io/profile/EAguayodev)
-
-## Acknowledgments

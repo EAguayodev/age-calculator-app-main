@@ -4,7 +4,6 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -12,7 +11,6 @@
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -32,10 +30,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://your-solution-url.com
+- Solution URL: https://github.com/EAguayodev/age-calculator-app-main
 - Live Site URL: https://age-calculator-app-main-chi.vercel.app/
 
 ## My process
+My process was to first create the html and css, then add the javascript to make the form work. I started out by creating the html structure for placing the input fields and labels, placing the submit button and the hr element. Then I styled the html elements with css, adding the fonts and colors. From there, added javascript to make the form work, adding the event listener to the submit button, and then adding the logic to calculate the age and display it in the DOM.
 
 ### Built with
 
@@ -46,9 +45,8 @@ Users should be able to:
 - Desktop-first workflow
 
 
-
 ### What I learned
-
+I learned how to use the Date object in javascript to calculate the age, and how to use the getDate() method to get the day of the month, the getMonth() method to get the month, and the getFullYear() method to get the year. I also learned how to use the placeholder selector in css to style the placeholder text in the input fields. Also, I learned how to use the textContent property to display the age in the DOM.
 
 ```html
 <div class="input-group">
@@ -85,8 +83,11 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+Areas I want to focus on:
+- Learn more about the Date object in JavaScript.
+- Continue to improve my skills with javascript.
+- Improve my css skills.
+- Continue to complete the challenges on frontendmentor which require Javascript.
 ### Useful resources
 
 - https://www.w3schools.com/cssref/sel_placeholder.php - I went to w3schools to learn about the placeholder selector, and to see how to style it and resize accoridng to the figma design.

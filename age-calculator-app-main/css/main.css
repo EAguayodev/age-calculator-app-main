@@ -73,7 +73,7 @@ label{
 }
 
 .submissions[type="text"]{
-    font-size: 1.1rem;
+    font-size: 2rem;
     padding-left: 1rem;
 }
 
@@ -123,6 +123,10 @@ hr{
     .submissions{
         padding: 0;
         width: 3.479rem;
+    }
+
+    .submissions[type="text"]{
+        font-size: 1.125rem;
     }
 
     .submit-button{

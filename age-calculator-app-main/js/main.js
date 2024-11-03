@@ -1,7 +1,7 @@
 document
   .getElementById("age-calculator")
-  .addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form submission
+  .addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent form submission
 
     // Get input elements and their values
     const dayInput = document.getElementById("day");

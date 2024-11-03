@@ -112,12 +112,20 @@ hr{
     font-size: 6rem;
 }
 
+.error-text{
+    font-size: 0.688rem;
+}
+
 /* Media Queries mobile screens */
 @media (max-width: 768px) {
     .age-calculator{
         width: 21.438rem;
         flex-direction: column;
         height: 30.5rem;
+    }
+
+    .input-group{
+        padding: 0;
     }
 
     .submissions{

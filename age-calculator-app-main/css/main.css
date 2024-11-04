@@ -5,18 +5,17 @@
     box-sizing: border-box;
 }
 
-/* Remove default margin */
 body,
 p {
     margin: 0;
 }
 
-/* Set core root defaults */
+
 html:focus-within {
     scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
+
 body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
@@ -91,7 +90,7 @@ main{
 
 .age-calculator {
     background-color: var(--white);
-    padding: 40px;
+    padding: 70px;
     border-radius: 20px 20px 100px 20px;
     top: 0%;
 }
@@ -106,14 +105,13 @@ main{
 fieldset{
     border: none;
     display: flex;
+    gap: 10px;
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
-    justify-self: space-between;
-    width:15.2ch;
-    padding: 2rem 0.5rem;
+    width:13.5ch;
 }
 
 label{
@@ -147,7 +145,7 @@ hr{
     border: none;
     border-radius: 50px;
     position: absolute;
-    top: 32%;
+    top: 29%;
     right: 36%;
     padding: 1.1rem;
     cursor: pointer;
